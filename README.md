@@ -1,43 +1,42 @@
 🎮 React Tic-Tac-Toe Game
 
-Description:
-A simple Tic-Tac-Toe game built with React. Players can take turns, view a log of moves, and restart the game after it ends. The game tracks player moves, disables already-selected squares, and announces the winner or a draw.
+A simple Tic-Tac-Toe game built with React. Players take turns, see a log of moves, and can restart the game. Tracks player moves, disables used squares, and announces the winner or a draw.
 
-📝 Features
+✨ Features
 
-Interactive game board with clickable squares.
+🟦 Interactive game board with clickable squares
 
-Move log displaying each player's turn and the square they selected.
+📜 Move log showing each player's turn and selected square
 
-Game over screen showing the winner or draw.
+🏆 Game over screen displaying the winner or a draw
 
-Rematch button to restart the game.
+🔄 Rematch button to restart the game
 
-Built with React functional components and props for modularity.
+⚛️ Built with React functional components
 
-🛠️ Components
+🧩 Components
 
 GameBoard
 
-Displays a grid of squares.
+🟩 Displays a grid of squares
 
-Disabled buttons for already-selected squares.
+❌ Disabled buttons for already-selected squares
 
-Calls onSelectSquare(row, col) when a square is clicked.
+👉 Calls onSelectSquare(row, col) on click
 
 Log
 
-Shows a list of all turns.
+📝 Shows a list of all turns
 
-Each turn displays the player and the selected square coordinates.
+🕹️ Each turn displays the player and selected square coordinates
 
 GameOver
 
-Displays the winner or a draw message.
+🏁 Shows winner or draw
 
-Contains a "rematch" button to restart the game.
+🔁 Includes a "Rematch" button to restart
 
-📦 Installation
+⚙️ Installation
 # Clone the repo
 git clone https://github.com/yourusername/react-tic-tac-toe.git
 
@@ -47,23 +46,24 @@ cd react-tic-tac-toe
 # Install dependencies
 npm install
 
-# Start the development server
-npm run dev
+# Start the app
+npm start
 
 🖥️ Usage
 
-Click on empty squares to place your symbol (X or O).
+🔹 Click empty squares to place X or O
 
-View the move log below the board to track turns.
+📖 View the move log to track turns
 
-When the game ends, check who won or if it’s a draw.
+🏆 See who won or if it’s a draw
 
-Click Rematch to restart the game at any time.
+🔁 Click Rematch to restart
 
-⚡ Tech Stack
+🛠️ Tech Stack
 
-React
+⚛️ React
 
-JavaScript (ES6+)
+💻 JavaScript (ES6+)
 
-CSS (optional styling)
+🎨 CSS
+
