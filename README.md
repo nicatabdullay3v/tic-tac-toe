@@ -28,7 +28,7 @@ Log
 
 📝 Shows a list of all turns
 
-🕹️ Each turn displays the player and selected square coordinates
+🕹️ Displays the player and selected square coordinates
 
 GameOver
 
@@ -66,4 +66,3 @@ npm start
 💻 JavaScript (ES6+)
 
 🎨 CSS
-
