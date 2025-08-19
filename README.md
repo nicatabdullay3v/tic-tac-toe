@@ -44,4 +44,4 @@ cd react-tic-tac-toe
 npm install
 
 # Start the app
-npm start
+npm run dev
